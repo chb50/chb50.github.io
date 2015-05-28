@@ -1,0 +1,135 @@
+
+body {
+	background-color: #e5e6eb;
+	padding-top: 1%;
+	min-height: 50%;
+	min-width: 50%;
+}
+
+.container {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+/#topLogIn {
+	position: relative;
+	top: 10px;
+	word-spacing: 10px;
+}
+
+#rutgersR img {
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+}
+
+.tabs li a img {    /* for facebook img */
+	height: 20px;
+	width: 20px;
+}
+
+.tabs {
+	position: relative;
+	top: -20px;
+	padding-left: 45px;
+	padding-right: 45px;
+	font-size: 15px;
+}
+
+.tabs li {            /* moves tabs and places them side by side */
+	display: inline;
+	position: relative;
+	top: -10px;
+	margin-left: 5px;   /* margin spaces out each tab */
+	margin-right: 5px;
+}
+
+.jumbotron {
+	background-image: url("http://ppcdn.500px.org/33431459/b9a68bec54da2b5b6f3822a76a2846f392350c00/2048.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	font-family: Verdana, sans-serif;
+	height: 400px;
+
+}
+
+
+
+
+
+.jumbotron h1, .jumbotron p  {   /* A lot of fine tuning to control text positioning */
+	color: #ffffff;
+	position: absolute;
+	top: 52%;
+}
+
+.jumbotron p:first-child {   /* A lot of fine tuning to control text positioning */
+	position: relative;
+	top: 220px;
+}
+
+.jumbotron p:nth-child(3) {   /* A lot of fine tuning to control text positioning */
+	position: relative;
+	top: 270px;
+	padding-left: 55%;
+}
+
+
+
+/* End of Jumbotron */
+
+.mid-sec {
+	position: relative;
+	top: 50px;
+}
+
+.mid-sec .thumbnail img {  /* adjusts both images to the same size */
+	height: 250px;
+	width: 400px;
+}
+
+.fp-button {      /* the Fancy red buttons */
+	background-color: #ee1515;
+	border-color: #fe5757;
+}
+
+.fp-button:hover {
+	background-color: #b62020;
+	border-color: #cb2424;
+}
+
+/* End mid-section */
+
+#news {
+	background-color: #f8f8fa;
+	border-radius: 20px;
+	width: 90%;
+	padding: 15px;
+	position: relative;
+	top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#recentNews {
+	display: inline-block;
+	width: 70%;
+	margin-right: 10px;
+}
+
+#recentNewsPic {
+	display: inline-block;
+	width: 25%;
+}
+
+/* #logIn {   (work in progress)
+	float: right;
+	background-color: #f8f8fa;
+	border-radius: 20px;
+	width: 25%;
+	position: relative;
+	top: 70px;
+	padding-left: 20px;
+}
+*/
